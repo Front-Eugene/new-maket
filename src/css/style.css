@@ -1,0 +1,430 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0 50px;
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: "Montserrat", serif;
+    background: #1F1F1F;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    font-size: 35px;
+    font-weight: 900;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.header-item {
+    color: #9049e8;
+}
+
+.screen {
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    color: #fff;
+}
+
+.screen-photos-wrap {
+    width: 100%;
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.img-item {
+    width: 300px;
+    border-radius: 20px;
+}
+
+.main-img {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.screen-wrap {
+    /* width: 545px; */
+    /* margin-top: 100px; */
+    margin-top: 20px;
+}
+
+.screen-wrap h1 {
+    font-size: 50px;
+}
+
+.screen-wrap h2 {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.screen-text {
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+.price-wrap {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.price-old {
+    font-size: 32px;
+    text-decoration: line-through;
+    color: #bdbdbd;
+}
+
+.price-new {
+    font-size: 42px;
+}
+
+.sale {
+    padding: 10px 20px;
+    margin-left: 20px;
+    font-size: 42px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+}
+
+.order {
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    background: #9049e8;
+}
+
+.perks {
+    width: 100%;
+    margin-top: 100px;
+    color: #fff;
+}
+
+.perks h2 {
+    font-size: 64px;
+}
+
+.perks-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.perks-item {
+    width: 660px;
+    margin-top: 50px;
+}
+
+.perks-item p {
+    margin-top: 16px;
+}
+
+.perks-title {
+    display: flex;
+    align-items: center;
+}
+
+.perks-point {
+    width: 16px;
+    height: 16px;
+    margin-right: 16px;
+    border-radius: 8px;
+    background: #9049e8;
+}
+
+.perks-title h2 {
+    font-size: 32px;
+}
+
+
+
+
+.review {
+    margin-top: 100px;
+    color: #fff;
+}
+
+.review h2{
+    font-size: 64px;
+}
+
+.review-wrap {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-item {
+    width: 320px;
+    padding: 24px;
+    border: 1px solid #fff;
+    border-radius: 16px;
+}
+
+.review-head {
+    display: flex;
+    align-items: center;
+}
+
+.review-img {
+    min-width: 90px;
+    height: 90px;
+    border: 1px solid #9049e8;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 32px;
+}
+
+.stars-wrap {
+    margin-left: 20px;
+}
+
+.review-name {
+    font-size: 24px;
+}
+
+.review-stars {
+    margin-top: 10px;
+    display: flex;
+}
+
+.review-stars div {
+    font-size: 16px;
+    margin-right: 16px;
+}
+
+.review-stars img {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.review-item p {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.form {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form__input {
+    width: 100%;
+    margin-top: 20px;
+    padding: 0 0 5px 10px;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    border-bottom: 1px solid #D9D9D9;
+    background: none;
+    outline: none;
+}
+
+form {
+    width: 660px;
+}
+
+form h2{
+    color: #fff;
+    font-size: 64px;
+    margin-bottom: 100px;
+}
+
+footer {
+    padding: 50px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    width: 100vw;
+    border-top: 1px solid #D9D9D9;
+    color: #fff;
+}
+
+footer span {
+    font-size: 16px;
+    margin-right: 10px;
+    color: #bdbdbd;
+}
+
+footer p {
+    font-size: 16px;
+    margin-top: 20px;
+    display: block;
+}
+
+footer a {
+    color: #fff;
+}
+
+.address {
+    line-height: 21px;
+}
+
+.delivery {
+    font-weight: 600;
+}
+
+.footer-contact {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 100px) and (max-width: 1400px) {
+    header {
+        font-size: 20px;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    body {
+        padding: 0 20px;
+    }
+
+    .screen {
+        flex-direction: column-reverse;
+    }
+
+    .screen-wrap {
+        width: 100%;
+    }
+
+    .screen-wrap h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .screen-wrap h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .screen-photos-wrap {
+        justify-content: space-around;
+        margin-bottom: 0;
+    }
+
+    .img-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .screen-text {
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+    .price-wrap {
+        margin-top: 20px;
+    }
+
+    .price-old {
+        font-size: 12px;
+    }
+
+    .price-new {
+        font-size: 18px;
+    }
+
+    .sale {
+        font-size: 16px;
+    }
+
+    .perks h2 {
+        font-size: 24px;
+    }
+
+    .perks-title h2 {
+        font-size: 16px;
+    }
+
+    .perks-item p {
+        margin-top: 12px;
+    }
+
+    .perks-item {
+        margin-top: 20px;
+    }
+
+    .review {
+        margin-top: 50px;
+    }
+
+    .review h2 {
+        font-size: 24px;
+    }
+
+    .review-wrap {
+        margin-top: 30px;
+        flex-direction: column;
+    }
+
+    .review-item {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .review-item p {
+        font-size: 12px;
+    }
+
+    .review-name {
+        font-size: 16px;
+    }
+
+    .form img {
+        display: none;
+    }
+
+    form {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    form h2 {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+
+    footer {
+        margin-top: 100px;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .footer-item {
+        margin-top: 20px;
+    }
+
+    footer span {
+        font-size: 12px;
+    }
+}
